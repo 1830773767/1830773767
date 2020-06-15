@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>全图滚动</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- 导航 -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">主页</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#service">服务</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </nav>
+    <!-- 内容 -->
+    <section id="home">
+      <h1>欢迎大家学习课程</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem architecto sunt est, nobis aspernatur et quos
+        hic nulla modi,adipisci harum natus deserunt pariatur officiis
+        quas unde asperiores magni fuga!</p>
+    </section>
+    <section id="about">
+      <h1>关于我们</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem architecto sunt est, nobis aspernatur et quos
+        hic nulla modi,adipisci harum natus deserunt pariatur officiis
+        quas unde asperiores magni fuga!</p>
+    </section>
+    <section id="service">
+      <h1>课程的服务</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem architecto sunt est, nobis aspernatur et quos
+        hic nulla modi,adipisci harum natus deserunt pariatur officiis
+        quas unde asperiores magni fuga!</p>
+    </section>
+    <section id="contact">
+      <h1>联系方式:27732357</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem architecto sunt est, nobis aspernatur et quos
+        hic nulla modi,adipisci harum natus deserunt pariatur officiis
+        quas unde asperiores magni fuga!</p>
+    </section>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
